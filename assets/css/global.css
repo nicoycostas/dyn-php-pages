@@ -1,0 +1,71 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 40vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+
+}
+
+
+
+.menu ul{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.menu-item{
+    margin: 20px;
+
+}
+
+.menu-link{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 10px 20px;
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: rgb(69, 69, 69);
+    
+}
+
+.active{
+   
+    background-color: orange;
+}
+
+
+main{
+    width:100%;
+    margin: 0 auto;
+}
+
+.section{
+    padding: 40px;
+}
+
+.section h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+.footer{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
