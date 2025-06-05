@@ -14,10 +14,13 @@
     font-size: 25px;
 }
 
+
+
 .article-flex img{
-    margin-top: 40px;
+    margin-top: 100px;
     width: 300px;
     height: 300px;
+    border-radius: 100%;
 }
 
 .services{
